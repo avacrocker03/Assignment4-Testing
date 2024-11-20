@@ -1,4 +1,4 @@
-project\Library.class
-project\LibraryManagementSystemMain.class
-project\User.class
-project\Book.class
+main\java\project\User.class
+main\java\project\Book.class
+main\java\project\Library.class
+main\java\project\LibraryManagementSystemMain.class

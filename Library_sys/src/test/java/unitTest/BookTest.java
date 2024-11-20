@@ -1,8 +1,8 @@
-package test.java.test;
+package test.java.unitTest;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import project.Book;
+import main.java.project.Book;
 
 public class BookTest {
 

@@ -1,4 +1,4 @@
-package project;
+package main.java.project;
 
 //Book class
 public class Book {
