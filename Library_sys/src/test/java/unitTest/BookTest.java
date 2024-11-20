@@ -11,5 +11,5 @@ public class BookTest {
         Book book = new Book("Harry Potter", "J.K. Rowling", "1234ABCD");
         assertEquals("Harry Potter", book.getTitle());
     }
-    
+
 }

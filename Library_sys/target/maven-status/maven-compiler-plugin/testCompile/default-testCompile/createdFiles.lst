@@ -1,1 +1,5 @@
 test\java\unitTest\BookTest.class
+<<<<<<< HEAD
+=======
+test\java\integrationTest\LibraryTest.class
+>>>>>>> ff5ace24dab0e7010120c25159e5f0450f3ca9e5
