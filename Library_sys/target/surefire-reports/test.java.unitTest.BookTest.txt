@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: test.java.test.BookTest
+Test set: test.java.unitTest.BookTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in test.java.test.BookTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in test.java.unitTest.BookTest
