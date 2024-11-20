@@ -1,10 +1,10 @@
-package test.java.integrationTest;
+package test.java.unitTest;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-import project.Book;
-import project.Library;
+import main.java.project.Book;
+import main.java.project.Library;
 
 public class LibraryTest {
 
