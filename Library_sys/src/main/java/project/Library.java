@@ -22,6 +22,10 @@ public class Library {
         users.put(user.getUserId(), user);
     }
 
+    public void removeUser(String userId) {
+        users.remove(userId);
+    }
+
     public void borrowBook(String userId, String isbn) {
         User user = users.get(userId);
         Book book = findBookByIsbn(isbn);
@@ -91,7 +95,7 @@ public class Library {
         return (double) totalBorrowed / users.size();
     }
 
-    private Book findBookByIsbn(String isbn) {
+    public Book findBookByIsbn(String isbn) {
         for (Book book : books) {
             if (book.getIsbn().equals(isbn)) {
                 return book;

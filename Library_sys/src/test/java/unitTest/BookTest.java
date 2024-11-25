@@ -1,20 +1,21 @@
 package test.java.unitTest;
 
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
 import main.java.project.Book;
 
 public class BookTest {
-    Book book;
+    static Book book;
 
     // Populating book object before each test
-    @BeforeEach
-    public void createBook()
+    @BeforeAll
+    public static void createBook()
     {
         book = new Book("Harry Potter", "J.K. Rowling",  "1234ABCD");
         book.borrowBook();
@@ -40,6 +41,13 @@ public class BookTest {
         // returning book
         book.returnBook();
         assertTrue(book.isAvailable());
+    }
+
+    // Testing null book borrow
+    @Test
+    public void testBorrowedBook()
+    {
+        assertThrows(IllegalStateException.class, () -> book.borrowBook());
     }
 
 }

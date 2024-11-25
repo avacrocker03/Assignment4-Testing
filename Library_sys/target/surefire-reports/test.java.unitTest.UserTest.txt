@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: test.java.unitTest.LibraryTest
+Test set: test.java.unitTest.UserTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in test.java.unitTest.LibraryTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in test.java.unitTest.UserTest

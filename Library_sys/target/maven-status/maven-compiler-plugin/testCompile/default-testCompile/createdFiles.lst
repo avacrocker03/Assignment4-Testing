@@ -1,2 +1,5 @@
-test\java\unitTest\LibraryTest.class
+test\java\unitTest\UserTest.class
 test\java\unitTest\BookTest.class
+test\java\unitTest\LibrarySuite.class
+test\java\unitTest\LibraryTest.class
+test\java\unitTest\UserBookSuite.class
