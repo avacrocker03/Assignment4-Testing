@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 
 import main.java.project.Book;
@@ -48,6 +49,24 @@ public class BookTest {
     public void testBorrowedBook()
     {
         assertThrows(IllegalStateException.class, () -> book.borrowBook());
+    }
+
+    // Grabbing values from null book
+    @Test
+    public void testNullValues()
+    {
+        Book nullBook = new Book(null,null,null);
+        assertNull(nullBook.getAuthor());
+        assertNull(nullBook.getIsbn());
+        assertNull(nullBook.getTitle());
+    }
+
+    // Trying to return a book that isn't borrowed
+    @Test
+    public void testReturnedBook()
+    {
+        Book nullBook = new Book(null,null,null);
+        assertTrue(nullBook.isAvailable());
     }
 
 }
