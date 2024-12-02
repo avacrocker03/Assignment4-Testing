@@ -3,3 +3,4 @@ test\java\unitTest\BookTest.class
 test\java\unitTest\LibrarySuite.class
 test\java\unitTest\LibraryTest.class
 test\java\unitTest\UserBookSuite.class
+test\java\integrationTest\PairwiseTechniqueTest.class

@@ -1,5 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Library_sys,main.java.project,User,0,59,0,4,0,18,0,8,0,6
-Library_sys,main.java.project,Library,27,182,6,20,6,46,6,19,1,11
-Library_sys,main.java.project,Book,0,44,0,2,0,16,0,8,0,7
-Library_sys,main.java.project,LibraryManagementSystemMain,95,0,0,0,22,0,2,0,2,0
